@@ -81,7 +81,7 @@ const Header = () => {
             })}
              <button
               onClick={toggleTheme}
-              className="text-black dark:text-white hover:text-gray-400 p-2 transition-colors"
+              className="hover:text-gray-400 p-2 transition-colors"
               aria-label="Toggle theme"
             >
               {theme === "light" ? <Moon size={20} /> : <Sun size={20} />}
@@ -127,7 +127,7 @@ const Header = () => {
               })}
               <button
               onClick={toggleTheme}
-              className="px-4 text-black dark:text-white hover:text-gray-400 p-2 transition-colors"
+              className="px-4 hover:text-gray-400 p-2 transition-colors"
               aria-label="Toggle theme"
             >
               {theme === "light" ? <Moon size={20} /> : <Sun size={20} />}
